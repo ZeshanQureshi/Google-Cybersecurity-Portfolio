@@ -1,3 +1,2 @@
 # Professional Statement
-
 My name is Zeshan Qureshi. I am enthusiastic about cybersecurity and enjoy developing solutions that will positively impact an organization and the customers it serves. I am an experienced software developer with considerable programming experience including Python and SQL. I also have strong written and verbal communication skills. I will work hard to ensure the organization is protected from threats and am dedicated to ensuring the safety of the public. 
