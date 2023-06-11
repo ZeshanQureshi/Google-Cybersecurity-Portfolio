@@ -57,8 +57,8 @@ Controls assessment for administrative controls:
 Controls assessment for technical controls:
 |**Control Name**|**Control type and explanation**|**Needs to be implemented**|**Priority**|
 |-----------------|---------------------------------|-----------------------------|--------------|
-|Firewall|Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering internal network|&#x2612;|Low|
-|Intrusion Detection System (IDS)|Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly|&#x2611;|High|
+|Firewall|Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering internal network||Low|
+|Intrusion Detection System (IDS)|Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly|&#x274E;|High|
 |Encryption|Deterrent; makes confidential information/data more secure (e.g., website payment transactions)|&#x2611;|High|
 |Backups|Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan|&#x2611;|High|
 |Password management system|Corrective; password recovery, reset, lock out notifications|&#x2611;|Medium|
@@ -77,7 +77,7 @@ Controls assessment for physical controls:
 |Fire detection and prevention (fire alarm, sprinkler system, etc.)|Detective/Preventative; detect fire in the toy store’s physical location to prevent damage to inventory, servers, etc.|&#x2611;|High|
 
 ## **Compliance Assessment**
-&#x2612; **The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)** \
+&#x274E; **The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)** \
 The FERC-NERC regulation applies to organizations that work with electricity or that are involved with the U.S. and North American power grid. Organizations have an obligation to prepare for, mitigate, and report any potential security incident that can negatively affect the power grid. Organizations are legally required to adhere to the Critical Infrastructure Protection Reliability Standards (CIP) defined by the FERC.
 
 Not enough information is given to determine whether Botium Toys complies with the FERC-NERC.
@@ -92,7 +92,7 @@ PCI DSS is an international security standard meant to ensure that organizations
 
 Botium Toys is an online retailer which uses credit card payments. Company must ensure they comply with PCI DSS. 
 
-&#x2612; **The Health Insurance Portability and Accountability Act (HIPAA)** \
+&#x274E; **The Health Insurance Portability and Accountability Act (HIPAA)** \
 HIPAA is a federal law established in 1996 to protect U.S. patients’ health information. This law prohibits patient information from being shared without their consent. Organizations have a legal obligation to inform patients of a breach.
 
 Botium Toys does not handle the medical information of it's customers. The HIPAA does not apply in this case.
