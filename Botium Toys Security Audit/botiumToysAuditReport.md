@@ -47,34 +47,34 @@ The potential impact from the loss of an asset is rated as medium, because the I
 Controls assessment for administrative controls:
 |**Control Name**|**Control type and explanation**|**Needs to be implemented**|**Priority**|
 |-----------------|---------------------------------|-----------------------------|--------------|
-|Least Privilege|Preventative; reduces risk by making sure vendors and non-authorized staff only have access to the assets/data they need to do their jobs|&#x2611;|High|
-|Data Recovery Plans|Corrective; business continuity to ensure systems are able to run in the event of an incident/there is limited to no loss of productivity downtime/impact to system components, including: computer room environment (air conditioning, power supply, etc.); hardware (servers, employee equipment); connectivity (internal network, wireless); applications (email, electronic data); data and restoration|&#x2611;|High|
-|Password policies|Preventative; establish password strength rules to improve security/reduce likelihood of account compromise through brute force or dictionary attack techniques|&#x2611;|High|
-|Access control policies|Preventative; increase confidentiality and integrity of data|&#x2611;|High|
-|Account management policies|Preventative; reduce attack surface and limit overall impact from disgruntled/former employees|&#x2611;|High|
-|Separation of Duties|Preventative; ensure no one has so much access that they can abuse the system for personal gain|&#x2611;|High|  
+|Least Privilege|Preventative; reduces risk by making sure vendors and non-authorized staff only have access to the assets/data they need to do their jobs|&#x2705;|High|
+|Data Recovery Plans|Corrective; business continuity to ensure systems are able to run in the event of an incident/there is limited to no loss of productivity downtime/impact to system components, including: computer room environment (air conditioning, power supply, etc.); hardware (servers, employee equipment); connectivity (internal network, wireless); applications (email, electronic data); data and restoration|&#x2705;|High|
+|Password policies|Preventative; establish password strength rules to improve security/reduce likelihood of account compromise through brute force or dictionary attack techniques|&#x2705;|High|
+|Access control policies|Preventative; increase confidentiality and integrity of data|&#x2705;|High|
+|Account management policies|Preventative; reduce attack surface and limit overall impact from disgruntled/former employees|&#x2705;|High|
+|Separation of Duties|Preventative; ensure no one has so much access that they can abuse the system for personal gain|&#x2705;|High|  
 
 Controls assessment for technical controls:
 |**Control Name**|**Control type and explanation**|**Needs to be implemented**|**Priority**|
 |-----------------|---------------------------------|-----------------------------|--------------|
 |Firewall|Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering internal network||Low|
 |Intrusion Detection System (IDS)|Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly|&#x274E;|High|
-|Encryption|Deterrent; makes confidential information/data more secure (e.g., website payment transactions)|&#x2611;|High|
-|Backups|Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan|&#x2611;|High|
-|Password management system|Corrective; password recovery, reset, lock out notifications|&#x2611;|Medium|
-|Antivirus (AV) software|Corrective; detect and quarantine known threats|&#x2611;|High|
-|Manual monitoring, maintenance, and intervention|Preventative/corrective; required for legacy systems to identify and mitigate potential threats, risks, and vulnerabilities|&#x2611;|High|
+|Encryption|Deterrent; makes confidential information/data more secure (e.g., website payment transactions)|&#x2705;|High|
+|Backups|Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan|&#x2705;|High|
+|Password management system|Corrective; password recovery, reset, lock out notifications|&#x2705;|Medium|
+|Antivirus (AV) software|Corrective; detect and quarantine known threats|&#x2705;|High|
+|Manual monitoring, maintenance, and intervention|Preventative/corrective; required for legacy systems to identify and mitigate potential threats, risks, and vulnerabilities|&#x2705;|High|
 
 Controls assessment for physical controls:
 |**Control Name**|**Control type and explanation**|**Needs to be implemented**|**Priority**|
 |-----------------|---------------------------------|-----------------------------|--------------|
-|Time-controlled safe|Deterrent; reduce attack surface/impact of physical threats|&#x2611;|Medium|
-|Adequate lighting|Deterrent; limit “hiding” places to deter threats|&#x2611;|Low|
-|Closed-circuit television (CCTV) surveillance|Preventative/detective; can reduce risk of certain events; can be used after event for investigation|&#x2611;|Medium|
-|Locking cabinets (for network gear)|Preventative; increase integrity by preventing unauthorized personnel/individuals from physically accessing/modifying network infrastructure gear|&#x2611;|Medium|
-|Signage indicating alarm service provider|Deterrent; makes the likelihood of a successful attack seem low|&#x2611;|Low|
-|Locks|Preventative; physical and digital assets are more secure|&#x2611;|High|
-|Fire detection and prevention (fire alarm, sprinkler system, etc.)|Detective/Preventative; detect fire in the toy store’s physical location to prevent damage to inventory, servers, etc.|&#x2611;|High|
+|Time-controlled safe|Deterrent; reduce attack surface/impact of physical threats|&#x2705;|Medium|
+|Adequate lighting|Deterrent; limit “hiding” places to deter threats|&#x2705;|Low|
+|Closed-circuit television (CCTV) surveillance|Preventative/detective; can reduce risk of certain events; can be used after event for investigation|&#x2705;|Medium|
+|Locking cabinets (for network gear)|Preventative; increase integrity by preventing unauthorized personnel/individuals from physically accessing/modifying network infrastructure gear|&#x2705;|Medium|
+|Signage indicating alarm service provider|Deterrent; makes the likelihood of a successful attack seem low|&#x2705;|Low|
+|Locks|Preventative; physical and digital assets are more secure|&#x2705;|High|
+|Fire detection and prevention (fire alarm, sprinkler system, etc.)|Detective/Preventative; detect fire in the toy store’s physical location to prevent damage to inventory, servers, etc.|&#x2705;|High|
 
 ## **Compliance Assessment**
 &#x274E; **The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)** \
@@ -82,12 +82,12 @@ The FERC-NERC regulation applies to organizations that work with electricity or 
 
 Not enough information is given to determine whether Botium Toys complies with the FERC-NERC.
 
-&#x2611; **General Data Protection Regulation (GDPR)** \
+&#x2705; **General Data Protection Regulation (GDPR)** \
 GDPR is a European Union (E.U.) general data regulation that protects the processing of E.U. citizens’ data and their right to privacy in and out of E.U. territory. Additionally, if a breach occurs and a E.U. citizen’s data is compromised, they must be informed within 72 hours of the incident.
 
 As Botium Toys expands to serve customers in Europe, the company must ensure they comply with the GFPR. 
 
-&#x2611; **Payment Card Industry Data Security Standard (PCI DSS)** \
+&#x2705; **Payment Card Industry Data Security Standard (PCI DSS)** \
 PCI DSS is an international security standard meant to ensure that organizations storing, accepting, processing, and transmitting credit card information do so in a secure environment.
 
 Botium Toys is an online retailer which uses credit card payments. Company must ensure they comply with PCI DSS. 
@@ -97,7 +97,7 @@ HIPAA is a federal law established in 1996 to protect U.S. patients’ health in
 
 Botium Toys does not handle the medical information of it's customers. The HIPAA does not apply in this case.
 
-&#x2611; **System and Organizations Controls (SOC type 1, SOC type 2)** \
+&#x2705; **System and Organizations Controls (SOC type 1, SOC type 2)** \
 The SOC1 and SOC2 are a series of reports that focus on an organization’s user access policies at different organizational levels. They are used to assess an organization’s financial compliance and levels of risk. They also cover confidentiality, privacy, integrity, availability, security, and overall data safety. Control failures in these areas can lead to fraud.
 
 Botium Toys must provide appropriate user access to employees and third-part vendors to mitigate risk. 
