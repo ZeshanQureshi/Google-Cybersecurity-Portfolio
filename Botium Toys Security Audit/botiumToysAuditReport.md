@@ -57,8 +57,8 @@ Controls assessment for administrative controls:
 Controls assessment for technical controls:
 |**Control Name**|**Control type and explanation**|**Needs to be implemented**|**Priority**|
 |-----------------|---------------------------------|-----------------------------|--------------|
-|Firewall|Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering internal network||Low|
-|Intrusion Detection System (IDS)|Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly|&#x274E;|High|
+|Firewall|Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering internal network|&#x274E;|Low|
+|Intrusion Detection System (IDS)|Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly|&#x2705;|High|
 |Encryption|Deterrent; makes confidential information/data more secure (e.g., website payment transactions)|&#x2705;|High|
 |Backups|Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan|&#x2705;|High|
 |Password management system|Corrective; password recovery, reset, lock out notifications|&#x2705;|Medium|
