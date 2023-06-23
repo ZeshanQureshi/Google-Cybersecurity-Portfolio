@@ -25,11 +25,28 @@ As an analyst, you can inspect network traffic and network data to determine wha
 This incident, in the meantime, is being handled by security engineers after you and other analysts have reported the issue to your direct supervisor. 
 
 ## **DNS and ICMP Traffic Log**
+- *13:24:32.192571 IP 192.51.100.15.52444 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (24) 13:24:36.098564 IP 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 udp port 53 unreachable length 254*
 
-*13:24:32.192571 IP 192.51.100.15.52444 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (24) 13:24:36.098564 IP 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 udp port 53 unreachable length 254*
+- *13:26:32.192571 IP 192.51.100.15.52444 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (24) 13:27:15.934126 IP 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 udp port 53 unreachable length 320*
 
-*13:26:32.192571 IP 192.51.100.15.52444 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (24) 13:27:15.934126 IP 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 udp port 53 unreachable length 320*
-
-*13:28:32.192571 IP 192.51.100.15.52444 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (24) 13:28:50.022967 IP 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 udp port 53 unreachable length 150*
+- *13:28:32.192571 IP 192.51.100.15.52444 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (24) 13:28:50.022967 IP 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 udp port 53 unreachable length 150*
 
 ## **Problem Summary**
+1. The incident was reported at 1:24PM when customers contacted the company IT team to let them know they recieved a "unreachable destination port" error message when accessing the company website
+
+2. Customers reported to the IT Team that they recieved the error “destination port unreachable” when trying to access the website.
+
+3. From UDP protocol, it is apparent that the DNS server is unreachable. 
+
+4. The ICPM reply returned the error message "udp port 53 unreachable".
+
+5. Since Port 53 is normally used for DNS protocol traffic, very likely DNS server is unresponsive.
+
+## **Solution summary**
+1. Packet sniffing tests using tcdump were performed and in the log file, it was found that DNS port 53 was unreachable.
+
+2. It must be determined whether the DNS server is down or that traffic to port 53 is restricted due to the firewall.
+
+3. Network logs activity should be used to determine whether there is large traffic to port 53. This may be an indication of a Denial of Service (DoS) attack.  
+
+4. If neither of the cases above are true, this is likely the result of the DNS server being misconfigured.
