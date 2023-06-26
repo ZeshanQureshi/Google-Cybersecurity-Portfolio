@@ -37,7 +37,6 @@ The cybersecurity team reports that the web server was impacted by a brute force
 
 Your job is to identify the problem occurring with the website. You should also recommend a security action to take to prevent brute force attacks in the future.
 
-
 ## **DNS & HTTP Traffic Log**
 * 14:18:32.192571 IP your.machine.52444 > dns.google.domain: 35084+ A? yummyrecipesforme.com. (24) 
 
