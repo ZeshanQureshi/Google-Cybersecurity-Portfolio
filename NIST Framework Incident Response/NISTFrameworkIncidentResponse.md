@@ -40,12 +40,14 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 ## **Incident Report**
 **Summary**
 
-Test
+* Network servers stopped responding as a result of a Distributed Denial of Service (DDoS) attack via a flood of ICMP packets.
+* Response was to block incoming requests from attacker IP address and to cease non-critical network services. 
 
+**NIST Framework Analysis**
 | Core Function | Description | 
 |----------|------|
-| Identify | Description | 
-| Protect | Description | 
-| Detect | Description | 
-| Respond | Description | 
-| Recover | Description | 
+| Identify | An ICMP flood attack took place resulting in network services stopping | 
+| Protect | Firewall rule implemented to regulate incoming ICMP packets and a Intrusion Detection System (IDS)/Intrusion Prevention System (IPS) filters out suspicious ICMP traffic | 
+| Detect | IP address verification was implemented by the cybersecurity response team to check for abnormal traffic behaviour and to check for spoofed IP addresses for incoming ICMP traffic | 
+| Respond | Affected networks services were shut down to prevent the disruption to other network services. Network logs will then be analyzed to determine abnormal or suspicious activities that occur | 
+| Recover | Recovery from a DDoS attack via ICMP flooding means restoring network services to their functional state. First, non-critical services should be shut down to decrease network traffic making log analysis easier. Then, critical services should be brought online. Finally once the ICMP packets expire, the non-critical services should be restored. It should be noted that ICMP flood attacks can be prevented by using a firewall filter. | 
