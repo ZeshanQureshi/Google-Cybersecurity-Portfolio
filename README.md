@@ -13,3 +13,34 @@ Certificates for each course in the Google Cybersecurity Specialization can be f
 * Course 6 - Detection and Response: [Certificate](https://www.coursera.org/account/accomplishments/verify/MKN88CDKMDCV)
 * Course 7 - Automate Cybersecurity Tasks with Python: [Certificate](https://www.coursera.org/account/accomplishments/verify/RVRC9TM2DVHZ)
 * Course 8 - Prepare for Cybersecurity Jobs: [Certificate](https://www.coursera.org/account/accomplishments/verify/MVZP2WHZJJN7)
+
+## Portfolio Projects
+* ### MDR 
+  Test 
+
+* ### SIEM Tools
+  Test
+
+* ### IPS/IDS 
+  Test  
+
+* ### NGFW 
+  Test
+
+* ### Botium Toys Security Audit
+  Performed a complete audit report for a small U.S. business that has a growing online presence.
+
+* ### NIST Framework Incident Response
+  Completed a NIST Cybersecurity Framework Template and an Incident Report for a multimedia company that experienced a DDoS attack.
+
+* ### Network Attack Analysis
+  Performed a Network Attack Analysis with an Identification and Explanation of the attack for a Travel Agency experiencing a problem with the web server.
+
+* ### Network Hardening Task
+  Prepared a Network Hardening Report for a Social Media Organization that recently experienced a Major Data Breach. 
+
+* ### Network Traffic Analysis
+  Performed a Network Analysis for a IT Consultant Customer experiencing a Network error when trying to load the company webpage.  
+
+* ### Operating Systems Hardening Task
+  Completed an Operating Systems Hardening Report on behalf of a client experiencing a Security Issue when customers access their main webpage.
