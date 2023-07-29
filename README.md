@@ -27,14 +27,14 @@ Certificates for each course in the Google Cybersecurity Specialization can be f
 * ### [NIST Framework Incident Response](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/NIST%20Framework%20Incident%20Response/NISTFrameworkIncidentResponse.md)
   Completed a NIST Cybersecurity Framework Template and an Incident Report for a multimedia company that experienced a DDoS attack.
 
-* ### [Network Attack Analysis](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/Network%20Attack%20Analysis/networkAttackAnalysis.md)
-  Performed a Network Attack Analysis with an Identification and Explanation of the attack for a Travel Agency experiencing a problem with the web server.
+* ### [Operating Systems Hardening Task](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/Operating%20Systems%20Hardening%20Task/operatingSystemsHardeningTask.md)
+  Completed an Operating Systems Hardening Report on behalf of a client experiencing a Security Issue when customers access their main webpage.
 
 * ### [Network Hardening Task](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/Network%20Hardening%20Task/networkHardeningTask.md)
   Prepared a Network Hardening Report for a Social Media Organization that recently experienced a Major Data Breach. 
 
 * ### [Network Traffic Analysis](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/Network%20Traffic%20Analysis/networkTrafficAnalysis.md)
-  Performed a Network Analysis for a IT Consultant Customer experiencing a Network error when trying to load the company webpage.  
+  Performed a Network Analysis for a IT Consultant Customer experiencing a Network error when trying to load the company webpage.
 
-* ### [Operating Systems Hardening Task](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/Operating%20Systems%20Hardening%20Task/operatingSystemsHardeningTask.md)
-  Completed an Operating Systems Hardening Report on behalf of a client experiencing a Security Issue when customers access their main webpage.
+* ### [Network Attack Analysis](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/Network%20Attack%20Analysis/networkAttackAnalysis.md)
+  Performed a Network Attack Analysis with an Identification and Explanation of the attack for a Travel Agency experiencing a problem with the web server.  
