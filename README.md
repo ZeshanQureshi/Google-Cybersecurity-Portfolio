@@ -15,6 +15,9 @@ Certificates for each course in the Google Cybersecurity Specialization can be f
 * Course 8 - Prepare for Cybersecurity Jobs: [Certificate](https://www.coursera.org/account/accomplishments/verify/MVZP2WHZJJN7)
 
 ## Portfolio Projects
+* ### [Professional Statement](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/Professional%20Statement/professionalStatement.md)
+  View my professional statement.
+
 * ### [Splunk Log Analysis](https://github.com/ZeshanQureshi/Google-Cybersecurity-Portfolio/blob/master/Splunk%20Log%20Analysis/splunkLogAnalysis.md)
   Performed log analysis for security incidents for a small e-commerce store using Splunk Cloud.
 
