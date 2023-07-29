@@ -30,6 +30,5 @@ _Log output for **index = \*, host= "mailsv"** query_
 ![image description](splunk3.png)
 _Log output for **index = \*, host= "mailsv", fail* root** query_
 
-
 ## **Analysis** 
 From the log output above, there are 346 failed login attemps with the failed password error. All failed attempts occurred at the same time indicating a brute force attack is likely to have occurred.

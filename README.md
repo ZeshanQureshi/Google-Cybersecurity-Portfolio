@@ -15,17 +15,11 @@ Certificates for each course in the Google Cybersecurity Specialization can be f
 * Course 8 - Prepare for Cybersecurity Jobs: [Certificate](https://www.coursera.org/account/accomplishments/verify/MVZP2WHZJJN7)
 
 ## Portfolio Projects
-* ### MDR 
-  Test 
+* ### Splunk Log Analysis
+  Performed log analysis for security incidents for a small e-commerce store using Splunk Cloud.
 
-* ### SIEM Tools
-  Test
-
-* ### IPS/IDS 
-  Test  
-
-* ### NGFW 
-  Test
+* ### Suricata Exploring Signatures Rules
+  Examined signature rules and for logs and experimented with triggering rules using Suricata.
 
 * ### Botium Toys Security Audit
   Performed a complete audit report for a small U.S. business that has a growing online presence.
