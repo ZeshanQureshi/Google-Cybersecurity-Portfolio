@@ -1,5 +1,5 @@
 # Google-Cybersecurity-Portfolio
-A repository containing my portfolio for Google Cybersecurity Certification.
+A repository containing my portfolio for [Google Cybersecurity Certification](https://www.coursera.org/professional-certificates/google-cybersecurity).
 
 ## Certificate
 My Google Cybersecurity Specialization Certificate can be found here: [Certificate](https://www.coursera.org/account/accomplishments/professional-cert/U9HZRTG6NL9E).
